@@ -188,18 +188,18 @@ def main() -> None:
             elif independent_delta < -3.0:
                 msa_level = severity_max(msa_level, "watch")
                 msa_reasons.append("independent-site log-odds < -3")
-            if single_potts_delta < -8.0:
+            if single_potts_delta < -10.0:
                 msa_level = "warning"
+                msa_reasons.append("single-mutant Potts delta < -10")
+            elif single_potts_delta < -8.0:
+                msa_level = severity_max(msa_level, "watch")
                 msa_reasons.append("single-mutant Potts delta < -8")
-            elif single_potts_delta < -6.0:
-                msa_level = severity_max(msa_level, "watch")
-                msa_reasons.append("single-mutant Potts delta < -6")
-            if context_potts_delta < -8.0:
+            if context_potts_delta < -10.0:
                 msa_level = "warning"
-                msa_reasons.append("design-context Potts contribution < -8")
-            elif context_potts_delta < -6.0:
+                msa_reasons.append("design-context Potts contribution < -10")
+            elif context_potts_delta < -8.0:
                 msa_level = severity_max(msa_level, "watch")
-                msa_reasons.append("design-context Potts contribution < -6")
+                msa_reasons.append("design-context Potts contribution < -8")
             if float(ev["entropy_bits"][index]) < 1.0 and mutant_frequency < 0.05:
                 msa_level = "warning"
                 msa_reasons.append("rare substitution at a conserved position")
