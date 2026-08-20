@@ -12,6 +12,7 @@ outputs/ridgey_*
 outputs/ngly1_ev.npz
 work/esmfold2fast_fold64/
 work/ridgey_local_ensemble*/
+work/ridgey_structure_likelihood/
 work/*.log
 work/ngly1_*.csv
 work/ngly1_*.fasta
