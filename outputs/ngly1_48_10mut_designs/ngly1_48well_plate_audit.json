@@ -1,0 +1,61 @@
+{
+  "plate": "NGLY1_10M_48",
+  "format": "6 rows x 8 columns",
+  "wells": 48,
+  "unique_designs": 48,
+  "unique_sequences": 48,
+  "exact_mutations_per_design": 10,
+  "unique_mutation_identities": 50,
+  "unique_mutated_positions": 44,
+  "median_shared_mutations_all_pairs": 4.0,
+  "maximum_shared_mutations_all_pairs": 8,
+  "minimum_sequence_hamming_distance": 4,
+  "maximum_shared_mutations_adjacent_wells": 5,
+  "median_shared_mutations_adjacent_wells": 3.0,
+  "layout_optimization_cost_before": 3668.249757092021,
+  "layout_optimization_cost_after": 2225.3533706282474,
+  "common_anchor_mutations": [
+    [
+      "Q22K",
+      42
+    ],
+    [
+      "T575V",
+      42
+    ],
+    [
+      "V68I",
+      41
+    ],
+    [
+      "V17L",
+      36
+    ],
+    [
+      "R64K",
+      22
+    ],
+    [
+      "S599T",
+      16
+    ],
+    [
+      "T571A",
+      15
+    ],
+    [
+      "Y603F",
+      13
+    ]
+  ],
+  "focus_counts": {
+    "fold confidence": 3,
+    "EC retention": 10,
+    "solubility": 10,
+    "evolution/Potts": 10,
+    "stability": 9,
+    "sequence naturalness": 6
+  },
+  "contains_wt_control": false,
+  "control_note": "All 48 wells are ten-mutation designs; place WT and blank controls on a separate assay/control plate if needed."
+}

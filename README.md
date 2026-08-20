@@ -8,6 +8,9 @@ The finished deliverable is in `outputs/ngly1_48_10mut_designs/`:
 - `ngly1_48_10mut_designs.csv` — per-design Ridgey, Potts, solubility, masked-PPL, and folding audit columns
 - `ngly1_48_manifest.json` — method and gate definitions
 - `structures/` and `ngly1_48_structures.zip` — ESMFold2-Fast mmCIF predictions
+- `ngly1_48well_plate_map.csv` — the complete A1–F8 plate/order sheet
+- `ngly1_48well_plate_layout.csv` and `.md` — compact 6×8 grid views
+- `ngly1_48well_plate_order.fasta` — sequences ordered by well
 
 ## Design screen
 

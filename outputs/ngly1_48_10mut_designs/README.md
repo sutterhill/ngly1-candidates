@@ -22,3 +22,12 @@ This directory contains 48 exact ten-substitution variants of human NGLY1 (Q96IV
 - Catalytic-core CA RMSD to the WT prediction: 0.043 to 0.156 Å
 
 Use `ngly1_48_10mut_designs.csv` for per-design audit columns and `structures/` for the predicted mmCIF files. Experimental expression, activity, metal loading, and thermal-shift testing are still required before calling any design stabilized in the laboratory.
+
+## Plate-ready files
+
+- `ngly1_48well_plate_map.csv` maps every design to one well in a 6×8 plate and includes its amino-acid sequence and key screening metrics.
+- `ngly1_48well_plate_layout.csv` and `.md` provide compact grid views.
+- `ngly1_48well_plate_order.fasta` is ordered A1 through F8.
+- `ngly1_48well_plate_audit.json` records the plate and diversity invariants.
+
+The layout disperses closely related designs and balances the scoring profiles across rows and columns. All 48 wells contain mutants; WT and blank controls require a separate control plate.
