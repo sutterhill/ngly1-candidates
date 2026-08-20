@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+models/
+vendor/
+ridgey_600m_raw.json
+ridgey_600m_ensemble_raw.json
+ngly1_afdb.cif
+ngly1_ev_h100.a3m
+ngly1_ev_h100.npz
+ngly1_msa.a3m
+outputs/ridgey_*
+work/esmfold2fast_fold64/
+work/ridgey_local_ensemble*/
+work/*.log

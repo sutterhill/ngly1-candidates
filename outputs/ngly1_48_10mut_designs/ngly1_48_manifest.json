@@ -1,0 +1,46 @@
+{
+  "target": "human NGLY1 / UniProt Q96IV0",
+  "wild_type_length": 654,
+  "design_count": 48,
+  "mutations_per_design": 10,
+  "protected_catalytic_triad": [
+    309,
+    336,
+    353
+  ],
+  "protected_zinc_ligands": [
+    250,
+    253,
+    283,
+    286
+  ],
+  "catalytic_shell_ca_cutoff_angstrom": 18.0,
+  "ridgey_models": [
+    "600m",
+    "600m_ens1",
+    "600m_ens2",
+    "600m_ens3",
+    "600m_ens4"
+  ],
+  "potts": {
+    "msa_sequences": 5000,
+    "rank": 32,
+    "selected_l2_lambda": 1.0
+  },
+  "esmfold2fast_wt": {
+    "plddt": 0.9342294931411743,
+    "ptm": 0.5973632335662842
+  },
+  "selection": {
+    "stability": "positive delta in all five Ridgey 600M replicas",
+    "ec": "positive ensemble-mean P(EC 3.5.1.52), non-decreasing in >=4/5 replicas, worst delta >= -0.0018",
+    "solubility": "positive ensemble-mean delta",
+    "lm": "positive ensemble-mean mutation-site masked log-probability delta",
+    "fold": "ESMFold2-Fast pLDDT >= WT-0.01, pTM >= WT-0.03, max per-domain CA RMSD <=2.5 A"
+  },
+  "files": {
+    "fasta": "ngly1_48_10mut_designs.fasta",
+    "csv": "ngly1_48_10mut_designs.csv",
+    "structures": "structures/"
+  }
+}
