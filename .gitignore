@@ -9,6 +9,12 @@ ngly1_ev_h100.a3m
 ngly1_ev_h100.npz
 ngly1_msa.a3m
 outputs/ridgey_*
+outputs/ngly1_ev.npz
 work/esmfold2fast_fold64/
 work/ridgey_local_ensemble*/
 work/*.log
+work/ngly1_*.csv
+work/ngly1_*.fasta
+work/ngly1_*screen*.json
+work/ngly1_screen_source.cif
+ridgey_screen_ngly1_pool.py
